@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/libs/VSCOGrid-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa6c82386a265b2c4a8ea4b70f8cab6386bfe606">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/VSCOGrid-sources-1f714ab94b247be66b34a9a1de63dc5bb4699eed.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-920c9a04317b41e6425393d2a2cacfd8bd4105df.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.2/64238922c4006c3d0a9951c4c03983ecc6a1e1a0/jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="64238922c4006c3d0a9951c4c03983ecc6a1e1a0">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/jsoup-1.8.2-2dcf1945049e8da769e494cd20be9e1c79eb7b4e.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/gson-2.3.1-3c39ef3fd584a770344a29e8a9c21077979c4113.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/classes-8525ae5570a176a458e8c300c6a5fcdcf21587a3.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/classes-01ee8bed684e398d6c8d7e42a37d84b4cadfba66.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-61c3780f4c6a7697fe594eb3d61e15515f993460.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-add114b788616b34c85470675fb173f3c2b6878e.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/.gradle/caches/modules-2/files-2.1/com.google.android.apps.muzei/muzei-api/2.0/ea86be2a201e6ad86dacffe774dbc6d89fcb0c92/muzei-api-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ea86be2a201e6ad86dacffe774dbc6d89fcb0c92">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/muzei-api-2.0-de3941e4633e32a49b70052b714e9a706433db80.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.annotation/10.0-b28/30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba/javax.annotation-10.0-b28.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/javax.annotation-10.0-b28-5a484b7f88c2b9ec55b910755db47a3ee95474fb.jar" />
+    </item>
+    <item
+        jar="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/Users/varunoberoi/AndroidStudioProjects/VscoForMuzei/app/build/intermediates/pre-dexed/debug/classes-b07094df3956fd4ae0cc51eb6d567016484d7e72.jar" />
+    </item>
+
+</items>
