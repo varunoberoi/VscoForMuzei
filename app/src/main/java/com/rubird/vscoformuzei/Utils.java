@@ -21,7 +21,6 @@ public class Utils {
     public final static String TAG = "Utils";
     public static String rootUrl = "http://grid.vsco.co/grid/1";
 
-
     // Fetch an image from VSCO Grid
     static Map<String, String> fetchArtFromVSCO() throws IOException {
 
@@ -40,13 +39,5 @@ public class Utils {
         map.put("siteId", siteId);
 
         return map;
-//        VSCOArt art = new VSCOArt();
-
-//        art.author = randomFigure.select("figcaption").text();
-//        art.link = randomFigure.select("a").first().attr("href");
-//        art.picture = randomFigure.select("img").first().attr("src");
-//        art.description = "No found";
-
-//        return art;
     }
 }

@@ -9,6 +9,7 @@ import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.Random;
 
 import retrofit.ErrorHandler;
 import retrofit.RequestInterceptor;
@@ -81,8 +82,9 @@ public class VSCOArtSource extends RemoteMuzeiArtSource {
 
             VSCOService service = restAdapter.create(VSCOService.class);
             VSCOGrid response;
+            Random randomGenerator = new Random();
             try {
-                response = service.getWalls(ids.get("vs").toString(), ids.get("siteId").toString());
+                response = service.getWalls(ids.get("vs").toString(), randomGenerator.nextInt(3000),ids.get("siteId").toString());
                 art = new VSCOArt();
                 art.picture = "http://" + (response.getMedia().get(0).getResponsiveUrl().replace("\\",""));
                 art.author = response.getMedia().get(0).getGridName()+"("+response.getMedia().get(0).getPermaDomain()+")";

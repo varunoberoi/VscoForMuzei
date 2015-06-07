@@ -10,6 +10,6 @@ import retrofit.http.Query;
  * Created by varunoberoi on 05/06/15.
  */
 interface VSCOService {
-    @GET("/ajxp/{vs}/2.0/medias?page=1&size=1")
-    VSCOGrid getWalls(@Path("vs") String vs, @Query("site_id") String siteId);
+    @GET("/ajxp/{vs}/2.0/medias?size=1")
+    VSCOGrid getWalls(@Path("vs") String vs, @Query("page") Integer page, @Query("site_id") String siteId);
 }
