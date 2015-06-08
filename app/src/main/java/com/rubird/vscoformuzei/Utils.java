@@ -1,5 +1,8 @@
 package com.rubird.vscoformuzei;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.util.Log;
 
 import org.jsoup.Connection;
@@ -39,5 +42,29 @@ public class Utils {
         map.put("siteId", siteId);
 
         return map;
+    }
+
+    /**
+     * Determines if the WIFI is connected
+     * @param context the needed Context
+     * @return true if connected
+     */
+    public static boolean isWifiConnected(Context context)
+    {
+        ConnectivityManager connManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        return  mWifi.isConnected();
+    }
+
+    /**
+     * Determines if the INTERNET is connected
+     * @param context the needed Context
+     * @return true if connected
+     */
+    public static boolean isConnected(Context context)
+    {
+        ConnectivityManager connManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 }

@@ -44,6 +44,19 @@ public class VSCOArtSource extends RemoteMuzeiArtSource {
     @Override
     protected void onTryUpdate(int reason) throws RetryException {
 
+        // Check if we cancel the update due to WIFI connection
+        if (!Utils.isWifiConnected(this)) {
+            if (BuildConfig.DEBUG) Log.d(TAG, "Refresh avoided: no wifi");
+            scheduleUpdate(System.currentTimeMillis() + rotateTimeMillis);
+            return;
+        }
+
+        if(!Utils.isConnected(this)){
+            if (BuildConfig.DEBUG) Log.d(TAG, "Refresh avoided: no internet");
+            scheduleUpdate(System.currentTimeMillis() + rotateTimeMillis);
+            return;
+        }
+
         VSCOArt art = null;
 
         try {
